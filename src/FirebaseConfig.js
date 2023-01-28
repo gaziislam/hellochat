@@ -1,12 +1,12 @@
 import { initializeApp } from "firebase/app"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBdCTOmuRZ_SQ6iw-NKu940sO-i6LHF6uo",
-  authDomain: "mui-chat-cc329.firebaseapp.com",
-  projectId: "mui-chat-cc329",
-  storageBucket: "mui-chat-cc329.appspot.com",
-  messagingSenderId: "772669591019",
-  appId: "1:772669591019:web:f2c3460407841c6939ddae",
+  apiKey: "AIzaSyBJFkiMgdOGKMy3UJTzC_9ROJysseFtsxI",
+  authDomain: "hellochat-b5656.firebaseapp.com",
+  projectId: "hellochat-b5656",
+  storageBucket: "hellochat-b5656.appspot.com",
+  messagingSenderId: "343636467314",
+  appId: "1:343636467314:web:311a8884e25276181daceb",
 }
 
 const app = initializeApp(firebaseConfig)
