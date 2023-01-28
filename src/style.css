@@ -1,0 +1,787 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/*=================
+    dark-mode-start
+  ================*/
+.dark,
+.light {
+  position: relative;
+}
+
+.dark {
+  background: rgba(1, 1, 3, 0.9);
+  color: #fff;
+}
+
+.dark h4,
+h5 {
+  color: rgb(255, 255, 255, 0.8) !important;
+}
+
+.dark .grouplist {
+  box-shadow: 0px 5px 21px 0px rgba(255, 255, 255, 0.34);
+}
+.dark .grouplist .divider {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.light {
+  background: #fff;
+}
+.light .grouplist .box h5 {
+  color: #000 !important;
+}
+
+.dlmode {
+  display: flex;
+  width: 115px;
+  cursor: pointer;
+  line-height: 23px;
+  position: absolute;
+  top: 23px;
+  left: 70px;
+}
+
+.off,
+.on {
+  font-size: 24px;
+}
+
+.dlmode .on {
+  color: #fff;
+}
+
+.sw-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/*=================
+    dark-mode-end
+  ================*/
+
+.registraion-part .left h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #11175d;
+  margin: 0;
+  margin-top: 110px;
+}
+
+.registraion-part p {
+  font-family: "Nunito", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: #11175d;
+  margin: 0;
+}
+
+.registraion-part .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+  padding: 0 !important;
+}
+
+.login-part .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 0;
+  border-bottom: 1px solid rgb(17, 22, 60);
+  border-radius: 0;
+}
+
+.registraion-part .box {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
+.registraion-part .MuiFormHelperText-root {
+  color: #ff0000;
+  font-size: 14px;
+}
+.registraion-part .form-bottom-text {
+  display: inline-block;
+  color: #11175d;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+
+.registraion-part .form-bottom-text a {
+  display: inline-block;
+  color: #ef6b39;
+  font-size: 21px;
+  font-weight: 700;
+}
+.registraion-part .form-bottom-text .a {
+  font-size: 16px;
+}
+
+.registraion-part .p {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+
+.registraion-part .form-bottom-text .button {
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  color: #eb0000;
+  font-size: 21px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.registraion-part .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  padding: 15px !important;
+}
+
+.registraion-part .eye {
+  position: relative;
+  width: 355px;
+}
+.registraion-part .eyeicon {
+  position: absolute;
+  bottom: 19px;
+  right: 10px;
+}
+.registraion-part .loginoption {
+  display: flex;
+}
+
+.registraion-part .option {
+  padding: 20px 30px 20px 50px;
+  border: 1px solid #0e0f26;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+}
+
+.registraion-part .option .option-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 15px;
+  left: 19px;
+}
+
+.registraion-part .option .facebook {
+  color: #4267b2;
+}
+
+.registraion-part .reg-img {
+  width: 80%;
+  padding-top: 33px;
+  height: auto;
+}
+
+.registraion-part .reg-img img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.registraion-part .log-img {
+  width: 95%;
+  padding-top: 33px;
+  height: auto;
+}
+
+.registraion-part .log-img img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.leftbar {
+  height: 100vh;
+  background: #3d0e88;
+  margin: 35px;
+  border-radius: 20px;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 35px;
+}
+.leftbar .modal-text h5 {
+  color: #3d0e88 !important;
+}
+
+.leftbar .profilepicbox {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.leftbar .profilepicbox .overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.259);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.leftbar .profilepicbox:hover .overlay {
+  opacity: 1;
+}
+
+.leftbar .profilepic {
+  width: 100px;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.leftbar .profilepicbox .img-icon {
+  font-size: 28px;
+  color: #fff;
+  position: absolute;
+  bottom: 15px;
+  right: 35px;
+}
+
+.leftbar li {
+  margin-top: 25px;
+  width: 90%;
+  background: #3d0e88;
+  margin-left: auto;
+  padding: 15px 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+}
+
+.leftbar li:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: #3d0e88;
+  content: "";
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.leftbar .active {
+  background: #fff;
+}
+
+.leftbar .icon {
+  font-size: 45px;
+  color: #fff;
+  margin-left: -8px;
+}
+
+.leftbar .active .icon {
+  color: #3d0e88;
+}
+
+.leftbar h5 {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.leftbar .css-1wns {
+  width: 800px !important;
+  background: red;
+}
+
+.search {
+  margin-top: 40px;
+}
+
+.search .searchbox {
+  -webkit-box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.34);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search .css-1vm0r4s-MuiPaper-root {
+  border-radius: 20px;
+}
+
+.grouplist {
+  -webkit-box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.34);
+  border-radius: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 17px 45px;
+  margin-top: 40px;
+  height: 292px;
+  overflow-y: scroll;
+}
+
+.grouplist h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grouplist .box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.grouplist .box h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.grouplist .box h5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+
+.grouplist .img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.grouplist .box .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grouplist .box .button button {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background: #3d0e88;
+  color: #fff;
+  padding: 5px 16px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.grouplist .divider {
+  border-bottom: 1px solid rgba(18, 24, 92, 0.2);
+}
+
+.grouplist .divider:last-child {
+  border-bottom: none;
+}
+
+.grouplist .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background: #3d0e88 !important;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.modal-input {
+  display: flex;
+  flex-direction: column;
+  column-gap: 4;
+  margin-bottom: 20px;
+}
+
+.friendlist {
+  height: 380px;
+  padding: 17px 30px;
+}
+
+.friendlist .img img {
+  margin-right: 5px;
+}
+
+.friendlist .box .button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.friendlist .button p {
+  font-family: "Nunito", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.friendlist .button2 button {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background: #3d0e88;
+  color: #fff;
+  padding: 5px 16px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.userlist .box .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userlist .box .name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.leftbarbox {
+  text-align: center;
+}
+
+.leftbarbox .profilepicbox {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.leftbarbox .profilepicbox .overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.259);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.leftbarbox .profilepicbox:hover .overlay {
+  opacity: 1;
+}
+
+.leftbarbox .profilepic {
+  width: 100px;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img-preview {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.leftbarbox button {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #3d0e88;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.mygroup {
+  height: 293px;
+  padding: 17px 30px;
+}
+.mygroup .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3px;
+}
+.mygroup .info button {
+  cursor: pointer;
+}
+
+.forgotpassword {
+  background: #3d0e88;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.forgotpassword h2 {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.forgotpassword .forgot {
+  background: #fff;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.forgotpassword .forgot h2 {
+  background: #fff;
+  color: #3d0e88;
+}
+.forgotpassword .forgot p {
+  color: #3d0e88;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.joingroup .box .button button {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: #3d0e88;
+  color: #fff;
+  padding: 5px 16px;
+  border-radius: 5px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat {
+  -webkit-box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.34);
+  border-radius: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 17px 45px;
+  margin-top: 40px;
+  height: 100vh;
+  /* overflow-y: scroll; */
+}
+
+.chat .top-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding-bottom: 25px;
+}
+.chat .chatarea {
+  height: 70vh;
+  overflow-y: scroll;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.chat .info {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.chat .dots {
+  width: 10%;
+  text-align: right;
+}
+
+.chat .img {
+  position: relative;
+  filter: drop-shadow(0 0 0.35rem rgba(0, 0, 0, 0.5));
+}
+.chat .img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chat .img .round {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: green;
+  border: 2px solid gray;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.chat .identity {
+  margin-left: 23px;
+}
+
+.chat .identity h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.chat .msg {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.chat .msg p {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 13px 52px;
+  border-radius: 10px;
+}
+.chat .msg .date {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  bottom: -26px;
+}
+
+.chat .chatimage {
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat .chatimage img {
+  width: 100%;
+}
+
+.msgwrite {
+  position: relative;
+}
+.msgwrite input {
+  width: 80%;
+  background: #f1f1f1;
+  border: 0;
+  padding: 15px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.msgwrite button {
+  background: #3d0e88;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  margin-left: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.msgwrite .msg-icon {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msgwrite .camera {
+  position: absolute;
+  top: 28px;
+  right: 113px;
+  font-size: 22px;
+}
+
+.mymodal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.mymodal h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.mymodal h5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4d4d4d !important;
+}
+
+.mymodal img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.mymodal .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mymodal .button button {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background: #3d0e88;
+  color: #fff;
+  padding: 5px 16px;
+  border-radius: 5px;
+  border: 0;
+}
+.mymodal .remove button {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background: #b60404;
+  color: #fff;
+  padding: 5px 16px;
+  border-radius: 5px;
+  border: 0;
+  margin-left: 5px;
+}
